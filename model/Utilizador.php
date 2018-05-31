@@ -96,7 +96,7 @@ class Utilizador {
 
             }else{
 
-                header('Location:http://localhost/exemplo_auth/?error=senha-nao-corresponde');
+                header('Location:http://localhost/exemplo_auth/?error=user-nao-corresponde');
             }
         } catch(Exception $ex) {
             return $ex->getMessage();

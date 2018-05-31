@@ -36,13 +36,11 @@
         </div>
 
 
-        <?php if(!empty($_GET['error'])=='senha-nao-corresponde'){?>
+        <?php if(!empty($_GET['error'])=='user-nao-corresponde'){?>
             <div class="row">
 
                 <div class="error text-danger lighten-4">
-                    <p class="text-center">Nome de tilizador ou Senha invalidos</p>
-                    <p class="text-center">Tente novamente</p>
-
+                    <p class="text-center">Nome de tilizador ou Senha incorrectos</p>
                 </div>
             </div>
 
